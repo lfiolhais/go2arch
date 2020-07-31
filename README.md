@@ -177,11 +177,11 @@ chroot# echo “default arch” > /boot/loader/loader.conf
 ### Basic user management
 
 ```
-# useradd -m -g users -G wheel -s /bin/bash lfiolhais
+# useradd -m -g users -G wheel -s /bin/bash USERNAME
 # pacman -S sudo
 # visudo
     Uncomment %wheel ALL=(ALL) ALL
-# passwd lfiolhais
+# passwd USERNAME
 # passwd -l root
 # reboot
 ```
