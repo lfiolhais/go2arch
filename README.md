@@ -1,4 +1,26 @@
-# Configure Install Environment
+# Introduction
+
+This is an Arch Linux install guide, and probably not a good one at that. As
+always with these guides the descriptions herein are completely biased so take
+it with a grain of salt.
+
+The goal of this guide isn't to give the full rundown on Arch Linux
+installation, the official Arch Linux documentation already covers this aspect
+in much greater detail. Rather, the goal is to get you setup as fast as
+possible with a Arch system while clearly explaining what each command does.
+
+The guide has a critical path which the user can follow to immediately get
+their system running. However, we do recommend taking the time and reading
+through the text. It's very easy to mess up along the way, and often it's
+harder to find the root of the problem.
+
+# Notation
+
+In several commands the keywords `USERNAME` and `HOSTNAME` are used to
+represent, the username and hostname of the machine, respectively. Don't
+forget to replace them.
+
+# Configure Installation Environment
 
 Set keyboard layout: `loadkeys i386/qwerty/uk`
 
