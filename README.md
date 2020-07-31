@@ -37,6 +37,11 @@ If you are in a HiDPI display increase the font size: `setfont latarcyrheb-sun32
 
 # Configuring SOS system
 
+The usage of an SOS system is recommended and allows you to access different
+partitions in your system when something really bad happens. If you are certain
+you won't be needing an SOS partition or are in need of the disk space it
+requires, feel free to skip this section.
+
 ## Mounting partitions
 
 ```
